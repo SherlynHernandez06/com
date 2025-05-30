@@ -1,0 +1,86 @@
+/* encabeazado*/
+header{
+    background-color:violet;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    margin: -12px;
+}
+
+/* cuerpo de la pagina*/
+body{
+    background-color:plum;
+}
+
+/* tabla de contenido*/
+aside{
+    background-color:palevioletred;
+    float:right;
+   /* width: auto;
+    height: 800px;
+    position: fixed;*/
+    padding: 50px;
+    font-size:20px; 
+    font-family: monospace;
+}
+
+/* tabla de contenido pagina clinicas*/
+.asidepag2{
+  position: absolute;
+  top:300px;
+}
+
+/* barra de navegacion*/
+nav{
+    background-color:lavenderblush;
+    font-size: 45px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    grid-gap: 80px;
+    
+}
+
+/* seccion pag2*/
+section{
+    background-color: mediumorchid;
+    font-size: 30px;
+    text-align: center;
+    font-style: oblique;
+    
+}
+
+
+.tabla{
+    background-color: lightpink;
+    text-align: justify;
+    font-family:monospace;
+}
+
+footer{
+    background-color:ghostwhite;
+    font-size: 12px;
+    /*position: fixed;
+    bottom: 0;
+    width: 100%;*/
+}
+.p1{
+    font-family: cursive;
+     text-align: center;
+}
+.articulo{
+ font-family: cursive;
+ color: blue;
+ text-align: left;
+ background-color:#f0f8ff; /* Fondo blanco para el artículo */
+ padding:5px;
+ border-radius: 25px; /* Bordes redondeados */
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 10); /* Sombra suave */
+}
+
+.articulo2{
+font-family: cursive;
+ color:black;
+ text-align: left;
+ background-color:#f0f8ff; /* Fondo blanco para el artículo */
+}
